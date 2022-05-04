@@ -1,0 +1,39 @@
+.carusel {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    &__wrapper {
+        position: relative;
+    }
+
+    &__button {
+        font-size: 5rem;
+        position: absolute;
+        top: 57%;
+        color: $color-dark-3xl;
+    
+    }
+
+    &__img {
+        width: 100%;
+        //position: absolute;
+        //right: 0;
+    }
+}
+
+.wrapper {
+}
+.b-left {
+    transform: rotateY(180deg);
+    left: 4%;
+}
+.img1 {
+}
+.img2 {
+}
+.img3 {
+}
+.b-right {
+    right: 4%;
+}
