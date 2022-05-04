@@ -1,0 +1,50 @@
+.bg-parallax {
+}
+.main {
+	
+		&__wrapper {
+			display: flex;
+			flex-direction: column;
+			gap: 20px;
+		}
+}
+.hero {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 20px;
+	padding: 40px 20px;
+
+		&__img {
+            width: 45%;
+            img {
+                width: 100%;
+            }
+		}
+
+		&__info {
+            width: 45%;
+            align-self: center;
+            display: flex;
+            flex-flow: column wrap;
+            gap: 20px;           
+		}
+
+		&__title {
+		}
+
+		&__subtitle {
+		}
+
+		&__text {
+		}
+
+		&__btns {
+		}
+
+		&__btn {
+
+			&_active {
+			}
+		}
+}

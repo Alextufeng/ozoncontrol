@@ -1,0 +1,22 @@
+button {
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+button a {
+    position: relative;
+    text-decoration: none;
+}
+
+button a:before {
+    content: '';
+    position: absolute;
+    display: block;
+    top: -20px;
+    bottom: -20px;
+    left: -20px;
+    right: -20px;
+}
